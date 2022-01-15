@@ -10,7 +10,8 @@ class CreateMovies < ActiveRecord::Migration[6.1]
       t.string :director
       t.string :actor
       t.datetime :date
-
+      #add review also
+      
       t.timestamps
     end
   end
