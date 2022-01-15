@@ -1,4 +1,5 @@
 class OmniauthController < ApplicationController
+	before_action :authenticate_user!
 	
 	def facebook
 	@user = User.create_from_provider_data(request.env['omniauth.auth'])
