@@ -3,7 +3,7 @@ class CreateMovies < ActiveRecord::Migration[6.1]
     create_table :movies do |t|
       t.string :title
       t.text :description
-      t.integer :rating
+      #t.integer :rating
       t.integer :awards
       t.text :news
       t.string :genre
