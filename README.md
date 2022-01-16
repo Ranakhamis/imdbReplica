@@ -4,12 +4,15 @@ I wanted to say first that I learned alot from this task as my first project to 
 
 So, I hope to extend the time as 2 days for almost a fresh grad considering the postgres credentials configurations that took nearly 4 hours of my time before deciding to migrate to sql to catch up with the deadline, with deprecated tools and old resources, personally I thought that making a good design and thinking about many steps and doing good UI was alot for a 2 days weekend, let alone I almost refused the timing because I was busy but my request wasnt approved and I didnt want to lose the opportunity at Robusta.
 
-Anyways, here's some pictures and what I did during the process then my thoughts about DB design:
+Anyways, here's some pictures (not updated but the last thing I took before the internal server issue) and what I did during the process then my thoughts about DB design:
 
 ![github.small](Screenshot%20from%202022-01-15%2021-50-20.png) <br  />
 
-![Alt text](Screenshot from 2022-01-15 21-50-20.png "Optional title")
-![Alt text](http://full/path/to/img.jpg "Optional title")
+![github.small](Screenshot%20from%202022-01-15%2021-50-37.png) <br />
+
+![github.small](Screenshot%20from%202022-01-15%2021-50-46.png) <br />
+
+![github.small](Screenshot%20from%202022-01-16%2001-39-51.png) <br />
 
 # feature that the platform offers and some notes: <br />
 .I totally avoided using scaffolds as I know it's a bad practice <br />
