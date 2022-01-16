@@ -12,7 +12,11 @@ Anyways, here's some pictures (not updated but the last thing I took before the 
 
 ![github.small](Screenshot%20from%202022-01-15%2021-50-46.png) <br />
 
+# This one to support showing movies for user by latest release (look at the second screeshot to check the dates of the movies from a past screenshot)
 ![github.small](Screenshot%20from%202022-01-16%2001-39-51.png) <br />
+
+![github.small](Screenshot%20from%202022-01-16%2001-23-50.png) <br />
+
 
 # feature that the platform offers and some notes: <br />
 .I totally avoided using scaffolds as I know it's a bad practice <br />
