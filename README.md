@@ -6,8 +6,9 @@ So, I hope to extend the time as 2 days for almost a fresh grad considering the 
 
 Anyways, here's some pictures and what I did during the process then my thoughts about DB design:
 
-![Alt text](http://full/path/to/img.jpg "Optional title")
-![Alt text](http://full/path/to/img.jpg "Optional title")
+![admin panel](/home/raura/Desktop/imdbRobusta/Screenshot from 2022-01-15 21-50-20.png "Optional title") <br  />
+
+![Alt text](Screenshot from 2022-01-15 21-50-20.png "Optional title")
 ![Alt text](http://full/path/to/img.jpg "Optional title")
 
 # feature that the platform offers and some notes: <br />
