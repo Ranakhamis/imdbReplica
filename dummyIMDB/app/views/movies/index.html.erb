@@ -9,6 +9,33 @@
 <div class="row">
   <% @movies.each do |movie| %>
     <div class="col-sm-6 col-md-3">
-      <!--<li>%= @movie.title %></li>>
+      <h3> <li><%= movie.title %></li></h3>
+    </div>     
   <% end %>
 </div>
+
+
+   <% @movies_categorized.each do |genre, movies_categorized| %>
+    <div class="col-sm-6 col-md-3">
+     <h3> <li><%= genre %></li> </h3>
+          <% movies_categorized.each do |movie| %>
+    <div class="col-sm-6 col-md-3">
+      <li><%= movie.title %></li>
+    </div> 
+      <br>
+  <% end %></li>
+    </div> 
+  <% end %>
+
+ <% @movies_by_year.each do |year, movies| %>
+    <div class="col-sm-6 col-md-3">
+     <h3> <li><%= year %></li> </h3>
+          <% movies.each do |movie| %>
+    <div class="col-sm-6 col-md-3">
+      <li><%= movie.title %></li>
+    </div> 
+      <br>
+  <% end %>
+    </div> 
+  <% end %>
+
