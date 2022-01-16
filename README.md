@@ -30,9 +30,9 @@ Anyways, here's some pictures (not updated but the last thing I took before the 
 
 # As for the normal user, the platform allows him/her to: <br />
 
-. Submit a review on a movie with a rating [ for this step I made a Review model that references user and movie models with a rating attribute but haven't created the reviews as comments yet because the UI had some problems after the internal server error however the logs showed the string i put in controller] <br />
+. Submit a review on a movie with a rating <br /> [ for this step I made a Review model that references user and movie models with a rating attribute but haven't created the reviews as comments yet because the UI had some problems after the internal server error however the logs showed the string i put in controller] <br />
 
-. Login to his account using Facebook - (Almost Done, I made the authentication steps [(1-gems installation 2-adding keys from developer pages and encrypting them and adding them on devise.rb , 3- session store and omniauth controller operations)]it didn't work as the authentication was prevented by omniauth itself i think it's related to sandbox disabling or a security trick  or something so i left it after 3 hours of investigation) <br />
+. Login to his account using Facebook (Almost Done, I made the authentication steps [(1-gems installation 2-adding keys from developer pages and encrypting them and adding them on devise.rb , 3- session store and omniauth controller operations)]it didn't work as the authentication was prevented by omniauth itself maybe it's related to a security trick or maybe sandbox but I'm not using it, so i left it after 3 hours of investigation) <br />
 
 # Expected DB Design: <br />
 . I didnt want to figure out the structure then build the data, so many models I saw them as just attributes at the beginning but I knew that they can either be models or attributes for the class to deal with it and update everything by migration files and it made me confused somehow because I didn't want redundancy in the db in case I create the associations in the same table with an attribute(however I don't know if normalization would have been a good sol to solve the root of the problem or not in this case which was I think a bad design ) so I saw 3 basic models from the 8 entities : 1- User 2- Movie 3- News <br  />
