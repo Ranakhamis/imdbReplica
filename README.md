@@ -20,7 +20,7 @@ Anyways, here's some pictures (not updated but the last thing I took before the 
 
 # feature that the platform offers and some notes: <br />
 .I totally avoided using scaffolds as I know it's a bad practice <br /> 
-.CRUD Operation of Movie by admin <br /> [Done]
+.CRUD Operation of Movie by admin  [Done] <br />
 . Created a nice admin panel using rails_admin gem. [Done] <br />
 . Ability to set featured movies by the platform administrator. [Done] <br />
 . Ability to see movies posted by admin as a user. [Done] <br />
