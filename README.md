@@ -63,8 +63,6 @@ panel over the following entities:
 # To be developed:
 . Ability for each user to add movies to his/her watchlist.
 . Construst a graph showing the ratings of a movie.
-. Register a new account using Facebook
-. Login to his account using Facebook
 . Submit a review on a movie with a rating
 . Run FB authentication and Share on Facebook a particular movie
 . Search in movies and celebrity names,and within the news content.
