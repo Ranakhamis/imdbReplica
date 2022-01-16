@@ -1,8 +1,8 @@
 
-Hello Reviewer,
+Hello Reviewer,<br />
 I wanted to say first that I learned alot from this task as my first project to design and learn about many concepts in RoR and the second project overall (counting a tutorial).
 
-So, I hope to extend the time as 2 days for almost a fresh grad considering the postgres credentials configurations that took nearly 4 hours of my time before deciding to migrate to sql to catch up with the deadline, with deprecated tools and old resources, personally I thought that designing the DB and thinking about many steps and doing good UI was alot for a 2 days weekend, let alone I almost refused the timing because I was busy but my request wasnt approved.
+So, I hope to extend the time as 2 days for almost a fresh grad considering the postgres credentials configurations that took nearly 4 hours of my time before deciding to migrate to sql to catch up with the deadline, with deprecated tools and old resources, personally I thought that making a good design and thinking about many steps and doing good UI was alot for a 2 days weekend, let alone I almost refused the timing because I was busy but my request wasnt approved and I didnt want to lose the opportunity at Robusta.
 
 Anyways, here's what I did during the process then my thoughts about DB design:
 
@@ -16,13 +16,20 @@ Anyways, here's what I did during the process then my thoughts about DB design:
 . View the news added by the platform administrator. [ It's the same as Movies and I already made the model but I had an internal server error and I spent alot investigating it] <br />
 . Search in movies and celebrity names,and within the news content. [ I was going to use searchkick / Ajax with typeahead in js but the deadline was tight ] <br />
 
-# As for the normal user, the platform allows him/her to:
+# As for the normal user, the platform allows him/her to: <br />
 
-. Submit a review on a movie with a rating [ for this step I made a Review model that references user and movie models with a rating attribute but haven't created the reviews as comments yet because the UI had some problems after the internal server error however the logs showed the string i put in controller]
+. Submit a review on a movie with a rating [ for this step I made a Review model that references user and movie models with a rating attribute but haven't created the reviews as comments yet because the UI had some problems after the internal server error however the logs showed the string i put in controller] <br />
 
-. Login to his account using Facebook - (Almost Done, I made the authentication steps [(1-gems installation 2-adding keys from developer pages and encrypting them and adding them on devise.rb , 3- session store and omniauth controller operations)]it didn't work as the authentication was prevented by omniauth itself i think it's related to sandbox disabling or a security trick  or something so i left it after 3 hours of investigation)
+. Login to his account using Facebook - (Almost Done, I made the authentication steps [(1-gems installation 2-adding keys from developer pages and encrypting them and adding them on devise.rb , 3- session store and omniauth controller operations)]it didn't work as the authentication was prevented by omniauth itself i think it's related to sandbox disabling or a security trick  or something so i left it after 3 hours of investigation) <br />
 
-# Expected DB Design:
+# Expected DB Design: <br />
+. I didnt want to figure out the structure then build the data, so many models I saw them as just attributes at the beginning but I knew that they can either be models or attributes for the class to deal with it and update everything by migration files and it made me confused somehow because I didn't want redundancy in the db in case I create the associations in the same table with an attribute(however I don't know if normalization would have been a good sol to solve the root of the problem or not in this case which was I think a bad design ) so I saw 3 basic models from the 8 entities : 1- User 2- Movie 3- News <br  />
+
+Thre other 4 entities for me was the ratings which I added as PG in Movie as an attribute set by admin and it made sense to me and as an attribute in Reviews Model which was the 4th model to deal with it by reference to user and movie. <br  />
+
+also the Awards, Genre, Director, Actor entity in case of scalability would have been better to be a model for sure but for simplicity I assumed it as an attribute as till the point I reached it wasn't necessary to do otherwise.
+
+
 
 #####################################################################################################################################################
 
