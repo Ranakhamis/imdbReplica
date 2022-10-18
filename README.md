@@ -1,10 +1,5 @@
 
 Hello Reviewer,<br />
-I wanted to say first that I learned alot from this task as my first project to design and learn about many concepts in RoR and the second project overall (counting a tutorial).
-
-So, I hope to extend the time as 2 days for almost a fresh grad considering the postgres credentials configurations that took nearly 4 hours of my time before deciding to migrate to sql to catch up with the deadline, with deprecated tools and old resources, personally I thought that making a good design and thinking about many steps and doing good UI was alot for a 2 days weekend, let alone I almost refused the timing because I was busy but my request wasnt approved and I didnt want to lose the opportunity at Robusta.
-
-Anyways, here's some pictures (not updated but the last thing I took before the internal server issue) and what I did during the process then my thoughts about DB design:
 
 ![github.small](Screenshot%20from%202022-01-15%2021-50-20.png) <br  />
 
@@ -61,30 +56,3 @@ panel over the following entities:
 . Users
 . Film Ratings (i.e. PG, PG-13)
 
-
-# To be developed:
-. Ability for each user to add movies to his/her watchlist.
-. Construst a graph showing the ratings of a movie.
-. Submit a review on a movie with a rating
-. Run FB authentication and Share on Facebook a particular movie
-. Search in movies and celebrity names,and within the news content.
-.Mailers 
-
-# BackEnd
-– Design patterns
-– Database design and ORM (ERD is a bonus)
-– RESTful
-– Organization of application code
-– Various Validations
-– The use of Gems efficiently
-– Mailers
-# FrontEnd
-– The integration of an HTML template
-– The use of Bootstrap
-– Assets Management
-– Minimal View code
-– JavaScript
-– AJAX
-# Tests
-– RSpec Tests
-– TDD
