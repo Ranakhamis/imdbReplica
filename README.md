@@ -1,6 +1,21 @@
 
 Hello Reviewer,<br />
 
+got a client who wants to build an platform that manages the details of movies and
+celebrities such as Internet Movie Database (imdb) website. The application is completely
+managed by the administrator where he/she has total control (CRUD) from the administration
+panel over the following entities:
+. Movies
+. Actors
+. Directors
+. Genre
+. Awards (i.e. Academy Awards)
+. News
+. Users
+. Film Ratings (i.e. PG, PG-13)
+
+#############################################################################################################
+
 ![github.small](Screenshot%20from%202022-01-15%2021-50-20.png) <br  />
 
 ![github.small](Screenshot%20from%202022-01-15%2021-50-37.png) <br />
@@ -41,18 +56,5 @@ also the Awards, Genre, Director, Actor entity in case of scalability would have
 
 
 
-#####################################################################################################################################################
 
-got a client who wants to build an platform that manages the details of movies and
-celebrities such as Internet Movie Database (imdb) website. The application is completely
-managed by the administrator where he/she has total control (CRUD) from the administration
-panel over the following entities:
-. Movies
-. Actors
-. Directors
-. Genre
-. Awards (i.e. Academy Awards)
-. News
-. Users
-. Film Ratings (i.e. PG, PG-13)
 
